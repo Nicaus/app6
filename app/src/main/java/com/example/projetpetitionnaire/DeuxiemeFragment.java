@@ -38,7 +38,7 @@ public class DeuxiemeFragment extends Fragment {
         ViewGroup rootView = (ViewGroup )inflater.inflate(R.layout.fragment_deuxieme, container, false);
 
         seek = rootView.findViewById(R.id.seekBar);
-        texteNiveau = rootView.findViewById(R.id.champNiveau);
+        texteNiveau = rootView.findViewById(R.id.textView);
         ec = new Ecouteur();
         seek.setOnSeekBarChangeListener(ec);
         return rootView;
